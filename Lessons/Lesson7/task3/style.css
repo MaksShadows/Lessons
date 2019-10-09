@@ -1,0 +1,18 @@
+a::before {
+  content:'> ';
+}
+a::after {
+  content:' <';
+}
+.theory::first-letter{
+  color: orange;
+  font-size: 36px;
+ margin-left: 16px;
+}
+.theory::first-line{
+   font-size: 24px;
+}
+.theory::selection{
+  background-color: red;
+  color: white;
+}
