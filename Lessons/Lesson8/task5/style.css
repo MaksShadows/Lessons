@@ -1,21 +1,18 @@
-body{
+body>div{
   margin: 50px;
 }
 div{
+  padding: 50px;
   box-sizing: border-box;
   background-color: blue;
   border: 3px solid black;
-  padding: 50px;
 }
 div>div{
   background-color: yellow;
-  box-sizing: border-box;
 }
 div>div>div{
   background-color: green;
-  box-sizing: border-box;
 }
 div>div>div>div{
   background-color: pink;
-  box-sizing: border-box;
 }
