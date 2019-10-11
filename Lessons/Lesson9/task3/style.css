@@ -4,18 +4,18 @@ div{
   width: 20%;
   float: left;
 }
-.block1{
+.block_red{
   background-color: red;
 }
-.block2{
+.block_green{
   background-color: green;
 }
-.block3{
+.block_blue{
   background-color: blue;
 }
-.block4{
+.block_yellow{
   background-color: yellow;
 }
-.block5{
+.block_black{
   background-color: black;
 }
