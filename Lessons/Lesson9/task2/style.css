@@ -6,12 +6,12 @@
   height: 100px;
 }
 .red{
-  background-color: green;
-  float: left;
-}
-.green{
   background-color: red;
   float: right;
+}
+.green {
+  background-color: green;
+  float: left;
 }
 section {
   background: aquamarine;
