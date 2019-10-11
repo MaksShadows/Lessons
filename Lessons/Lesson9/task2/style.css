@@ -1,29 +1,22 @@
-*{
-  box-sizing: border-box;
+.block{
+height:200px;
+display: inline-block;
+float:left;
+z-index:1;
+position: static;
 }
-.square {
-  width: 100px;
-  height: 100px;
+.block1{
+background-color:red;
 }
-.red{
-  background-color: red;
-  float: right;
+.block2{
+background-color:green;
 }
-.green {
-  background-color: green;
-  float: left;
+.block3{
+background-color:blue;
 }
-section {
-  background: aquamarine;
-  padding: 16px;
+.block4{
+background-color:yellow;
 }
-
-footer {
-  height: 30px;
-  border: 2px solid black;
-  clear: both;
-}
-.container{
-  float: left;
-  width: 50%;
+.block5{
+background-color:black;
 }
