@@ -1,0 +1,22 @@
+div{
+  height: 200px;
+  display: block;
+  width: 20%;
+  float: left;
+}
+.block1{
+  background-color: red;
+}
+.block2{
+  background-color: green;
+}
+.block3{
+  background-color: blue;
+}
+.block4{
+  background-color: yellow;
+}
+.block5{
+  background-color: black;
+
+}
