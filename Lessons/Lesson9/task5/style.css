@@ -5,13 +5,12 @@
   position: fixed;
   width: 100%;
   padding-left: 50px;
-  padding-top: 10px;
 }
 .main{
   height: 5000px;
   background-color: beige;
-  padding-top: 180px;
-  padding-left: 40%;
+  padding-top: 100px;
+  padding-left: 38%;
 }
 .nav-item{
   display: inline-block;
@@ -52,20 +51,20 @@
   margin-right: 40px;
 }
 .square1{
-  float: left;
   background-color: brown;
   height: 60px;
   width: 40px;
-  margin-left: 200px;
-  margin-top: -59px;
+  display: inline-block;
+  margin-left: -40px;
+  margin-bottom: -4px;
 }
-
 .square2{
-  float: right;
   background-color: brown;
   height: 60px;
   width: 40px;
-  margin-right: 809px;
-  margin-top: -59px;
-
+  display: inline-block;
+  margin-left: 195px;
+  margin-bottom: -4px;
 }
+
+
