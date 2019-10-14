@@ -4,8 +4,8 @@
   height: 40px;
   position: fixed;
   width: 100%;
-  
-
+  padding-left: 50px;
+  padding-top: 10px;
 }
 .main{
   height: 5000px;
@@ -13,25 +13,19 @@
   padding-top: 180px;
   padding-left: 40%;
 }
-nav{
-  padding-left: 16px;
-}
-li{
+.nav-item{
   display: inline-block;
   margin-left: 16px;
-  margin-top: 10px;
-
 }
-li:nth-child(1){
+.nav-item:nth-child(1){
   color: white;
 }
-li:nth-child(2){
+.nav-item:nth-child(2){
   color: white;
 }
-li:nth-child(3){
+.nav-item:nth-child(3){
   color: white;
 }
-
 .square{
   width: 200px;
   height: 200px;
