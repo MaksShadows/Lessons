@@ -4,21 +4,32 @@
   height: 40px;
   position: fixed;
   width: 100%;
-  padding-top: 20px;
-  padding-left: 16px;
+  
 
 }
 .main{
   height: 5000px;
   background-color: beige;
-  padding-top: 300px;
+  padding-top: 180px;
   padding-left: 40%;
 }
-
-nav>li{
-  color: white;
-  display: inline-block;
+nav{
   padding-left: 16px;
+}
+li{
+  display: inline-block;
+  margin-left: 16px;
+  margin-top: 10px;
+
+}
+li:nth-child(1){
+  color: white;
+}
+li:nth-child(2){
+  color: white;
+}
+li:nth-child(3){
+  color: white;
 }
 
 .square{
