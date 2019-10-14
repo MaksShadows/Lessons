@@ -1,7 +1,7 @@
 
 .header{
   background-color: darkturquoise;
-  height: 40px;
+  height: 43px;
   position: fixed;
   width: 100%;
   padding-left: 50px;
@@ -9,8 +9,8 @@
 .main{
   height: 5000px;
   background-color: beige;
-  padding-top: 93px;
-  padding-left: 33%;
+  padding-top: 92px;
+  padding-left: 32%;
 }
 .nav-item{
   display: inline-block;
@@ -56,7 +56,7 @@
   height: 60px;
   width: 40px;
   display: inline-block;
-  margin-left: -40px;
+  margin-left: -39px;
   margin-bottom: -4px;
 }
 .square2{
@@ -64,7 +64,7 @@
   height: 60px;
   width: 40px;
   display: inline-block;
-  margin-left: 195px;
+  margin-left: 194px;
   margin-bottom: -4px;
 }
 
