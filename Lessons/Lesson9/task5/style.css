@@ -1,0 +1,66 @@
+
+.header{
+  background-color: darkturquoise;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 16px;
+
+}
+.main{
+  height: 5000px;
+  background-color: beige;
+  padding-top: 300px;
+  padding-left: 40%;
+}
+
+nav>li{
+  color: white;
+  display: inline-block;
+  padding-left: 16px;
+}
+
+.square{
+  width: 200px;
+  height: 200px;
+  background-color: mediumaquamarine;
+}
+.circle1{
+  float: left;
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.circle2{
+  float: right;
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 80px;
+  margin-right: 40px;
+}
+.square1{
+  float: left;
+  background-color: brown;
+  height: 60px;
+  width: 40px;
+  margin-left: 200px;
+  margin-top: -59px;
+}
+
+.square2{
+  float: right;
+  background-color: brown;
+  height: 60px;
+  width: 40px;
+  margin-right: 809px;
+  margin-top: -59px;
+
+}
