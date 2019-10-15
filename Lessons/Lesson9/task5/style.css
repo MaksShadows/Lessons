@@ -19,7 +19,7 @@ nav {
 
 nav ul {
   display: flex;
-  margin-left: 40px;
+  margin-left: 42px;
   list-style: none;
   height: 40px;
 }
@@ -27,7 +27,7 @@ nav ul {
 nav ul li {
   display: flex;
   align-items: center;
-  margin-left: 19px;
+  padding-left: 16px;
   color: white;
   height: 100%;
 }
