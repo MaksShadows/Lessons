@@ -1,11 +1,10 @@
-
 .horizontal {
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.vertical{
+.vertical {
   height: 200px;
   display: flex;
   flex-direction: column;
