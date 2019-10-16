@@ -38,6 +38,6 @@
   padding: 16px 16px 16px 16px;
 }
 
-.dropdown:hover .menu-list {
+.title:hover .menu {
   display: block;
 }
