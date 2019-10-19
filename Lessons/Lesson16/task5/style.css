@@ -1,0 +1,10 @@
+form{
+  margin: 32px;
+}
+input, textarea, select{
+  display: block;
+  margin: 16px;
+}
+label>input{
+  display: inline-block;
+}
