@@ -1,12 +1,17 @@
+
 form{
   margin: 32px;
   display: block;
 }
 input, textarea, select{
   display: block;
-  margin: 10px;
+  margin: 13px;
 }
 
-label>input{
+.languages input{
   display: inline-block;
+  margin: 0 auto;
+}
+div{
+  margin: 13px;
 }
