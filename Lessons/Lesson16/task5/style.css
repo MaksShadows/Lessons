@@ -1,10 +1,12 @@
 form{
   margin: 32px;
+  display: block;
 }
 input, textarea, select{
   display: block;
-  margin: 16px;
+  margin: 10px;
 }
+
 label>input{
   display: inline-block;
 }
