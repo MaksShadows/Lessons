@@ -1,12 +1,11 @@
 
 form{
-  margin: 32px;
+  margin:  32px;
   display: block;
 }
 input, textarea, div{
   display: block;
-  margin: 16
-  px;
+  margin: 16px;
 }
 
 .languages input{
