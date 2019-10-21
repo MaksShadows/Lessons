@@ -56,4 +56,10 @@ table tr:nth-child(odd) td:last-child {
   border-top: 1px solid black;
 }
 
+.letter td:first-child,
+.letter td:last-child,
+.letter:last-child td:first-child,
+.letter:last-child td:last-child {
+  border: none !important;
+}
 
