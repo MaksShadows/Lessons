@@ -1,17 +1,13 @@
-
-form{
-  margin:  32px;
-  display: block;
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
 }
-input, textarea, div{
-  display: block;
+
+input,select,textarea {
+  margin: 16px;
+  align-self: flex-start;
+}
+.languages {
   margin: 16px;
 }
-
-.languages input{
-  display: inline-block;
-  margin: 0 auto;
-  margin-right: 5px;
-}
-
-
