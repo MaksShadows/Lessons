@@ -29,12 +29,10 @@ table tr:nth-child(odd) td:nth-child(even) {
 table tr td:first-child,
 table tr td:last-child {
   background-color: #fff !important;
-  border-bottom: none !important;
 }
 
 .letter td {
   background-color: #fff !important;
-  border-right: none !important;
 }
 
 table tr:nth-child(even) td:first-child,
@@ -59,5 +57,5 @@ table tr:nth-child(odd) td:last-child {
 .letter td:last-child,
 .letter:last-child td:first-child,
 .letter:last-child td:last-child {
-  border: none !important;
+
 }
