@@ -1,10 +1,13 @@
+* {
+  box-sizing: border-box;
+}
 form{
   margin:  32px;
   display: block;
 }
 input, textarea, select{
   display: block;
-  margin: 8px;
+  margin: 16px;
 }
 .languages input {
   display: inline-block;
