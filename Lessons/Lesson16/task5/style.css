@@ -1,13 +1,12 @@
-form {
-  display: flex;
-  flex-direction: column;
-  margin: 32px;
+form{
+  margin:  32px;
+  display: block;
 }
-
-input,select,textarea {
+input, textarea, select{
+  display: block;
   margin: 16px;
-  align-self: flex-start;
 }
-.languages {
-  margin: 16px;
+.languages input {
+  display: inline-block;
+   margin: 16px;
 }
