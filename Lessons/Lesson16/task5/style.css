@@ -1,14 +1,7 @@
-* {
-  box-sizing: border-box;
-}
 form{
   margin:  32px;
   display: block;
 }
-input, textarea, select{
-  display: block;
-  margin: 16px;
-}
-.languages input {
-  display: inline-block;
+.form-control {
+  margin: 8px;
 }
