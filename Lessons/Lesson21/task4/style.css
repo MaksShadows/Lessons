@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 html {
@@ -24,6 +25,7 @@ body {
 .footer {
   background-color: #e5e5e5;
   padding: 0.5em;
+  text-align: center;
 }
 
 .navigation,
@@ -45,6 +47,10 @@ body {
 .section {
   width: 60%;
   font-size: 1.25em;
+}
+
+.news {
+  width: 20%;
 }
 
 .units-list {
