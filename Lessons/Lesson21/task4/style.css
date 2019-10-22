@@ -7,13 +7,14 @@ html {
   font-family: Vardana;
   color: #555;
   font-size: 16px;
-  height: 100vh;
+  height: 100%;
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .header {
@@ -25,7 +26,7 @@ body {
 .footer {
   background-color: #e5e5e5;
   padding: 0.5em;
-  margin: 0;
+  flex: 0 0 auto;
   text-align: center;
 }
 
@@ -42,7 +43,9 @@ body {
 .main {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
+  flex: 1 auto;
+
 }
 
 .section {
@@ -80,7 +83,7 @@ body {
   display: flex;
   align-items: center;
   height: 2em;
-  margin: 0.5em;
+  margin: 0.5em 0;
   background-color: #808080;
  
 }
