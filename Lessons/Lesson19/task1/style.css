@@ -7,12 +7,14 @@
 }
 
 .rect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100px;
   width: 100px;
   background-color: coral;
   margin-bottom: 16px;
   opacity: 0.5;
-  transition-duration: 1s;
 }
 
 .rect:hover {
