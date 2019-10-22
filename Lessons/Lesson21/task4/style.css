@@ -7,13 +7,13 @@ html {
   font-family: Vardana;
   color: #555;
   font-size: 16px;
+  height: 100vh;
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
 }
 
 .header {
@@ -51,6 +51,7 @@ body {
 
 .news {
   width: 20%;
+  height: 100%;
 }
 
 .units-list {
@@ -77,12 +78,12 @@ body {
 .nav-list-item {
   display: flex;
   height: 2em;
-  margin: 0.5em;
+  margin: 0.5em 0;
   background-color: #808080;
+  box-sizing: content-box;
 }
 
 .nav-list-link {
-  display: inline;
   color: white;
   margin: 0.5em;
   text-decoration: none;
