@@ -9,10 +9,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+
+}
+.spinner-text{
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
-  animation: blinking 2s ease infinite;
+  animation: blinking 2s linear infinite;
 }
 .circle {
   box-sizing: border-box;
@@ -22,7 +25,7 @@
   border-top: 4px solid black;
   border-radius: 100%;
   margin-bottom: 8px;
-  animation: rotation 2s ease infinite;
+  animation: rotation 2s linear infinite;
 }
 
 @keyframes blinking {
