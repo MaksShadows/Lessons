@@ -12,7 +12,7 @@
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
-  animation: blinking 2s linear infinite;
+  animation: blinking 2s ease infinite;
 }
 .circle {
   box-sizing: border-box;
@@ -22,7 +22,7 @@
   border-top: 4px solid black;
   border-radius: 100%;
   margin-bottom: 8px;
-  animation: rotation 2s linear infinite;
+  animation: rotation 2s ease infinite;
 }
 
 @keyframes blinking {
