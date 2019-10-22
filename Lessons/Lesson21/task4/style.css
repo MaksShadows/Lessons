@@ -77,10 +77,11 @@ body {
 
 .nav-list-item {
   display: flex;
+  align-items: center;
   height: 2em;
-  margin: 0.5em 0;
+  margin: 0.5em;
   background-color: #808080;
-  box-sizing: content-box;
+ 
 }
 
 .nav-list-link {
