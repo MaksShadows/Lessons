@@ -15,7 +15,7 @@
   background-color: coral;
   margin-bottom: 16px;
   opacity: 0.5;
-  transition: width 1s, opacity 1s;
+  transition: width 1s, opacity 0.5s;
 
 }
 
