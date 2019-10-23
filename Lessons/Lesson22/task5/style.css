@@ -114,6 +114,9 @@ body {
   .section {
       width: 80%;
   }
+  .news{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
