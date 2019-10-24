@@ -35,6 +35,9 @@ nav {
           background-color: #9acd32;
       }
   }
+  .text-active {
+    color: #ff0;
+  }
   .menu__item_active {
     &:hover .submenu{
       display: block;
